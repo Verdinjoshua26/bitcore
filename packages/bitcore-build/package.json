@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/bitpay/bitcore-build",
   "dependencies": {
-    "@kollavarsham/gulp-coveralls": "^0.2.2",
+    "@kollavarsham/gulp-coveralls": "^0.4.0",
     "brfs": "^2.0.1",
     "browserify": "^16.2.3",
     "chai": "^4.2.0",
