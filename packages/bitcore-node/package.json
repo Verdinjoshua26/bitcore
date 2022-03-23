@@ -89,7 +89,7 @@
     "http": "0.0.0",
     "lodash": "^4.17.11",
     "lru-cache": "^4.1.3",
-    "mkdirp": "^0.5.1",
+    "mkdirp": "^0.5.2",
     "mongodb": "^3.1.1",
     "mongoose": "^5.0.11",
     "progress": "^2.0.0",
@@ -101,7 +101,7 @@
     "socket.io-client": "^2.1.1",
     "through2": "^2.0.3",
     "underscore": "^1.8.3",
-    "web3": "1.0.0-beta.36",
+    "web3": "1.2.0",
     "winston": "^2.3.9"
   },
   "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"
