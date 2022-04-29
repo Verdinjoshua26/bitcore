@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^6.3.1",
-    "async": "^0.9.2",
+    "async": "^2.6.4",
     "bitcore-lib": "^8.6.0",
     "bitcore-lib-cash": "^8.6.0",
     "body-parser": "^1.11.0",
