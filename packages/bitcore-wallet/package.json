@@ -17,16 +17,17 @@
     "url": "https://github.com/bitpay/bitcore-wallet/issues"
   },
   "dependencies": {
-    "async": "^2.5.0",
+    "async": "^2.6.4",
     "bitcore-lib": "^8.6.0",
     "bitcore-wallet-client": "^8.6.0",
     "commander": "^2.6.0",
-    "lodash": "^3.3.1",
-    "moment": "^2.9.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "npmlog": "^1.2.0",
     "qr-image": "^3.1.0",
     "read": "^1.0.5",
-    "sjcl": "^1.0.2"
+    "sjcl": "^1.0.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "^3.3.0",
@@ -35,7 +36,9 @@
   "scripts": {
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --reporter spec test",
     "test": "./node_modules/.bin/mocha",
-    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+    "coveralls": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "contributors": [
     {
@@ -72,5 +75,6 @@
     "wallet-derive": "./bin/wallet-derive"
   },
   "licence": "MIT",
-  "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"
+  "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1",
+  "snyk": true
 }
