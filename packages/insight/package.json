@@ -35,26 +35,29 @@
     "start": "npm run ionic:serve",
     "test": "ng test --watch=false --code-coverage --no-progress",
     "fix:prettier": "prettier '{*,**/*}.{js,ts,md,json,css}' --write",
-    "fix:tslint": "tslint --type-check --fix --project ."
+    "fix:tslint": "tslint --type-check --fix --project .",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@angular/common": "5.2.10",
     "@angular/compiler": "5.2.10",
-    "@angular/core": "5.2.10",
+    "@angular/core": "11.0.5",
     "@angular/forms": "5.2.10",
     "@angular/http": "5.2.10",
     "@angular/platform-browser": "5.2.10",
     "@angular/platform-browser-dynamic": "5.2.10",
     "angular2-moment": "1.7.1",
     "angular2-qrcode": "2.0.1",
-    "bitcore-lib": "^8.6.0",
-    "bitcore-lib-cash": "^8.6.0",
+    "bitcore-lib": "^8.22.2",
+    "bitcore-lib-cash": "^8.22.2",
     "bs58": "^4.0.1",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.21",
     "rxjs": "5.5.12",
-    "zone.js": "0.8.12"
+    "zone.js": "0.8.12",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@angular/cli": "7.3.4",
@@ -85,5 +88,6 @@
   },
   "engines": {
     "node": ">=8"
-  }
+  },
+  "snyk": true
 }
