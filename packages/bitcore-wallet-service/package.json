@@ -22,7 +22,7 @@
     "url": "https://github.com/bitpay/bitcore-wallet-service/issues"
   },
   "dependencies": {
-    "@sendgrid/mail": "^6.3.1",
+    "@sendgrid/mail": "^7.0.0",
     "async": "^0.9.2",
     "bitcore-lib": "^8.6.0",
     "bitcore-lib-cash": "^8.6.0",
