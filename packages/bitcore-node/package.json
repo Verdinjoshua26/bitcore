@@ -96,12 +96,12 @@
     "request": "^2.88.0",
     "rxjs": "^6.1.0",
     "secp256k1": "^3.5.0",
-    "snappy": "^6.0.1",
+    "snappy": "^6.0.4",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1",
     "through2": "^2.0.3",
     "underscore": "^1.8.3",
-    "web3": "1.0.0-beta.36",
+    "web3": "4.0.1",
     "winston": "^2.3.9"
   },
   "gitHead": "012cc0216a9bc6b195035855bd17149bad41acd1"
