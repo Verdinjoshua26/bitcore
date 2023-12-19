@@ -45,7 +45,7 @@
     "@angular/http": "5.2.10",
     "@angular/platform-browser": "5.2.10",
     "@angular/platform-browser-dynamic": "5.2.10",
-    "angular2-moment": "1.7.1",
+    "angular2-moment": "1.9.0",
     "angular2-qrcode": "2.0.1",
     "bitcore-lib": "^8.6.0",
     "bitcore-lib-cash": "^8.6.0",
