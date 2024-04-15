@@ -37,9 +37,9 @@
     "progress": "^2.0.0",
     "promptly": "^3.0.3",
     "request": "^2.87.0",
-    "request-promise-native": "^1.0.5",
+    "request-promise-native": "^1.0.9",
     "secp256k1": "^3.5.0",
-    "web3": "^1.0.0-beta.46"
+    "web3": "^1.2.0"
   },
   "devDependencies": {
     "@types/bcrypt": "^3.0.0",
