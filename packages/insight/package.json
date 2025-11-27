@@ -38,7 +38,7 @@
     "fix:tslint": "tslint --type-check --fix --project ."
   },
   "dependencies": {
-    "@angular/common": "5.2.10",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "5.2.10",
     "@angular/core": "5.2.10",
     "@angular/forms": "5.2.10",
